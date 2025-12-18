@@ -5,9 +5,13 @@ Real-time facial expression recognition using a CNN (48x48 grayscale) with 8 cla
 Environment
 
 cd /Users/vaibhavpatidar/Downloads/FRS
+
 python3 -m venv .venv
+
 source .venv/bin/activate
+
 pip install -r requirements.txt
+
 On macOS, ensure the terminal/IDE has camera permissions (System Settings → Privacy & Security → Camera).
 
 Run Inference (Webcam)
